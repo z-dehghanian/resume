@@ -1,0 +1,410 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Zahra Dehghanian}
+\newcommand{\CVTitle}{zahra dehghanian's CV}
+\newcommand{\CVNote}{CV compiled on {\today}}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+%pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{\CVAuthor}
+\hline
+\begin{SubTitle}
+\href{https://www.google.com/maps/place/Amirkabir+University+of+Technology+(Polytechnic}
+{Department of Computer Engineering and Information Technology, Amirkabir University of Technology, 424 Hafez Ave., Tehran, Iran}
+\par
+\href{mailto:z.dehghanian@aut.ac.ir}
+{z.dehghanian@aut.ac.ir}
+\,\SubBulletSymbol\,
++98\,(937)\,2793612
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{\url{\CVWebpage}}
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\Section
+{RESEARCH INTERESTS}
+{RESEARCH INTERESTS}
+{PDF:Interests}
+
+\Entry
+
+\BulletItem
+Language-based Security
+
+
+\BulletItem
+Formal Methods of Information Security
+\BulletItem
+Programming Languages
+\BulletItem
+Malware Detection Algorithm
+\BulletItem
+Compiler Design
+
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\Entry
+\href{http://www.aut.ac.ir}
+{\textbf{Amirkabir University of Technology}},
+Tehran, Iran
+
+\Gap
+\BulletItem
+B.S. in
+\href{http://ceit.aut.ac.ir}
+{Computer Engineering}, 
+  GPA: 17.84 / 20
+  Total Passed Credits: 80
+\hfill
+\DatestampYM{2015}{09} -- \DatestampYM{2019}{09} 
+
+\href{}
+{\textbf{Farzanegan 2 (NODET)}},
+Tehran, Iran
+\BulletItem
+Diploma in Mathematics and Physics Discipline, 
+GPA: 19.92/20
+\hfill
+\DatestampY{2010}--
+\DatestampY{2015}
+
+\begin{Detail}
+
+\end{Detail}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS & SCHOLARSHIPS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Honors \& \newline Awards}
+{Honors \& Awards}
+{PDF:AwardsAndScholarships}
+
+
+\BulletItem
+Achieved top 0.3 \% place among all applicants for the University Entrance Nationwide
+Exam (Approximately 180,000 applicants) in Mathematics 
+\hfill
+\DatestampY{2015}
+ 
+
+\Gap
+\BulletItem
+Achieved top 0.5 \% place among all applicants for the University Entrance Nationwide
+Exam(Approximately 108,000 applicants) in Foreign Languages (English).
+\hfill
+\DatestampY{ 2015}
+
+\Gap
+\BulletItem
+Semi-finalist at National Mathematics Olympiad
+\hfill
+\DatestampY{ 2013}
+
+
+\Gap
+\BulletItem
+accepted for 2nd level of National Kharazmi awards assessments
+\hfill
+\DatestampY{2011}
+
+
+\Gap
+\BulletItem
+Achieved 1rd Place in 7th National Javan Kharazmi awards assessments
+\hfill
+\DatestampY{2009}
+
+
+\Gap
+\BulletItem
+Achieved 3rd Place in 6th National Javan Kharazmi awards assessments
+\hfill
+\DatestampY{2008}
+
+\Gap
+\BulletItem
+ Member of National Organization for Development of Exceptional  Talents (NODET)
+ \hfill
+\DatestampY{2010} --
+\DatestampY{2014}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PROFESSIONAL AFFILIATIONS & ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Teaching Experience}
+{Teaching Experience}
+{PDF:ResearchExperience}
+
+\Entry
+
+\textbf{Teaching Assistant ,Discrete Mathematics}
+\hfill
+Spring \DatestampY{2016}
+\newline Amirkabir University of Technology ,Under Supervision Of Prof. Fallah
+
+
+\Entry
+\textbf{Instructor ,Advanced Programming in JAVA }
+\hfill
+Fall \DatestampY{2017}
+\newline Farzanegan 2 high school 
+
+\Entry
+\textbf{Instructor ,Basic Principles of Computer Programming in C++ }
+\hfill
+Fall \DatestampY{2016}
+\newline Farzanegan 2 high school 
+
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Languages}
+{Languages}
+{PDF:Languages}
+
+\BulletItem
+Persian: Native language.
+
+\Gap
+\BulletItem
+English: Fluent (speaking, reading, writing).
+
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\Section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+\Entry
+
+\begin{itemize}
+\item {\textbf{Programming}}
+
+    -C and C++ \hfill ( Mastering Degree : 8/10 )
+	\newline -Java  \hfill ( Mastering Degree : 8/10 )
+    \newline  -Python 3 \hfill( Mastering Degree : 5/10 )
+    \newline  -VHDL \hfill( Mastering Degree : 6/10 )
+    \newline  -verilog \hfill( Mastering Degree : 6/10 )
+    \newline  -Assembly \hfill( Mastering Degree : 7/10 )
+
+\item{\textbf{Web and DB Technologies}}
+
+     -HTML+CSS \hfill ( Mastering Degree : 7/10 )
+	\newline -MySQL   \hfill ( Mastering Degree : 8/10 )
+    \newline  -MongoDb \hfill( Mastering Degree : 7/10 )
+    \newline  -Oracle Database \hfill( Mastering Degree : 5/10 )
+    \newline -SQL Server \hfill ( Mastering Degree : 7/10 )
+
+
+\item{\textbf{Operating Systems}}
+
+     -Linux \hfill ( Mastering Degree : 7/10 )
+	\newline -Windows   \hfill ( Mastering Degree : 8/10 )
+
+\newpage
+\item{\textbf{Typesetting}}
+
+     -\LaTeX \hfill ( Mastering Degree : 8/10 )
+	\newline -Vim  \hfill ( Mastering Degree : 6/10 )
+	\newline -Microsoft Word  \hfill ( Mastering Degree : 8/10 )
+
+\item{\textbf{Coding Environments}}
+    \newline -Android Studio \hfill ( Mastering Degree : 6/10 )
+    \newline -modelsim  \hfill ( Mastering Degree : 7/10 )
+	\newline -Pycharm  \hfill ( Mastering Degree : 6/10 )
+	\newline -CodeBlocks  \hfill ( Mastering Degree : 8/10 )
+	\newline -Devc++  \hfill ( Mastering Degree : 7/10 )
+	\newline -Netbeans  \hfill ( Mastering Degree : 8/10 )
+
+
+\item{\textbf{Others}}
+	\newline -Matlab  \hfill ( Mastering Degree : 6/10 )
+	\newline -AVR microcontroller programming \hfill ( Mastering Degree : 8/10 )
+	\newline -Game Maker \hfill (Matering Degree : 7/10 ) 
+
+
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%
+%% Projects %%
+%%%%%%%%%%%%%%%%
+
+\Section
+{Projects}
+{Projects}
+{PDF:Projects}
+
+\Entry
+\begin{itemize}
+
+		
+	\item Advanced Computer Programming:
+		\begin{itemize}
+		\item  Implementation of a graphical game (PlantsVsZombies) - Java.
+     	\item Implementation of a Parsi Calender - Java.
+	    \item Implementation of a simple Encryption and encoding System  - Java.
+		\end{itemize}
+		
+	\item Principles of Computer and Programming : 
+	    \begin{itemize}
+	      \item Design and Implement simple Compiler - C.
+	      \end{itemize}
+	  \item Data Structure :
+		\begin{itemize}
+		\item	search engine using inverted index algorithm - C++.
+	     \item   Finite-State Automata - Java
+		\end{itemize}
+   	\item Logic Design : 
+   	    \begin{itemize}
+   	    \item Designing a Traffic Light System - Verilog
+   	    \end{itemize}
+   	\item Computer Architecture and design :
+   		\begin{itemize}
+		\item Basic Computer,Compiler,Cache,Pipeline - VHDL
+		\end{itemize}
+		
+     \item Operating Systems:
+     \begin{itemize}
+       \item Multiprocessing,Multithreading in Windows and Linux  - C
+    	\end{itemize}	
+	
+
+	
+	\item Design Automation:
+		\begin{itemize}
+		\item Phase1:Implementation of a car parking system - VHDL
+     	\item Phase2:Implementation of a co-software,hardware design using
+     	      Microblaze - VHDL
+	    \item Phase3:Implementation of a Plant-Watering System with a moisturizing
+	          detection system - VHDL
+	          
+	
+	\end{itemize}
+	
+		
+    \item Advanced Mathematics: 
+	    \begin{itemize}
+        \item Phase1:Analyzing Distribution categories of a two class  problem And] PCA - Python,MATLAB
+		 \item Phase2:
+     	     Facial Recognition with Singular Value Decomposition - Python
+     	     based on 	\href{https://link.springer.com/chapter/10.1007/978-1-4020-6264-3_26}{paper}
+     \end{itemize}
+   	\end{itemize}
+   \Entry
+\textbf{All Project are Available in:}
+\newline
+\href{https://github.com/z-dehghanian}
+{\textbf{Github}}  
+
+       	
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+
+\Section
+{References}
+{References}
+{PDF:References}
+
+\BulletItem
+\textbf{Professor Hamidreza Zarandi}
+\newline
+\href{mailto:zarandi@aut.ac.ir}
+{zarandi@aut.ac.ir}
+\,\SubBulletSymbol\,
++98\,(21)\,64542702
+\biggap
+
+
+
+\end{Body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+\UseNoteFont%
+\null\hfill%
+[\textit{\CVNote}]
+
+\end{document}
